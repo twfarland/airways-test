@@ -1,5 +1,13 @@
 # Airways test
 
+### Test
+
+    npm test
+
+### Run
+
+    npm dev
+
 ### Notes
 
 Because all processing can be done clientside, I chose to update the analysis on reaction to text input, rather than requiring a form submit. This allows faster feedback.

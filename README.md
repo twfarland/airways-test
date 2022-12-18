@@ -12,7 +12,7 @@
 
 Because all processing can be done clientside, I chose to update the analysis on reaction to text input, rather than requiring a form submit. This allows faster feedback.
 
-I used a parser combinator library (Parsimmon) to read the text input. I also handled signed number and extra whitespace between the coordinates.
+I used a parser combinator library (Parsimmon) to read the text input. I also handled signed numbers and extra whitespace between the coordinates.
 
 I separated the parsing, processing, and rendering logic from each other. I used pure functions, which are easier to unit test. I used the Either monad to simplify the control flow of dealing with possible failures.
 
